@@ -44,6 +44,6 @@ public class Square  extends JPanel {
 	{
 		super.paintComponent(g);
 		_ImgBackground.drawImg(g);
-		_imgSoldier.drawImg(g);
+		//_imgSoldier.drawImg(g);
 	}
 }

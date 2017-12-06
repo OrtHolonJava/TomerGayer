@@ -1,17 +1,16 @@
 import java.awt.Image;
 
+import javax.imageio.ImageIO;
 import javax.swing.ImageIcon;
 import javax.swing.JFrame;
+import javax.swing.JLabel;
 public class Main
 {
    public static void main(String[] args)
    {
-	   Image _image;
-	   _image = new ImageIcon(("images\\rollsback.png")).getImage(); 
 	   BoardPanel mp = new BoardPanel();
       JFrame frame = new JFrame("My Frame");
       try{
-    	     frame.setIconImage(_image);
     	  frame.add(mp);
       }
       catch (NullPointerException ex)
